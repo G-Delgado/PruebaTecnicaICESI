@@ -20,7 +20,7 @@ const pool = mysql.createPool({
 })
 
 // Creamos la ruta para hacer el get que queremos
-app.get("/cursos", (req, res) => {
+app.get("/facturas", (req, res) => {
     //Conexión con la DB
     pool.getConnection((err, connection) => {
         if (err) throw err

@@ -30,3 +30,6 @@ Para node, entraremos a la carpeta NodeExpress y haremos `npm i` para poder inst
 Luego, desde la carpeta NodeExpress haremos `node app.js` o `nodemon app.js` para poder correr el código e iniciar el servidor. 
 Luego de iniciarlo entraremos a `localhost:8080/facturas`
 8080 pues es el puerto especificado en el código pero puede ser cambiado.
+
+## Nota
+Cabe recalcar que al momento de hacer la petición, XAMPP debe estar prendido con Apache y MySQL iniciados.
